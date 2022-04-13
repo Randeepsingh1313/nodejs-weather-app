@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&family=Pacifico&display=swap');
+
+body {
+    color: #333333;
+    font-family: arial;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.main-content {
+    flex-grow: 1;
+    background-color: #FFFFFF;
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow:  20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+}
+.main-content p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+header {
+    height: 20vh;
+    margin-top: 16px;
+    margin-bottom: 48px;
+    border-radius: 50px;
+    padding-left: 30px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+}
+
+header a {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.output {
+    height: 20vh;
+    margin-top: 16px;
+    margin-bottom: 48px;
+    border-radius: 50px; 
+    padding: 30px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+}
+
+.output p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+footer {
+    color: #888888;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow:  20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+}
+h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+    font-family: 'Pacifico', cursive;
+    color: #4979D1;
+}
+header a {
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.portrait {
+    width: 250px;
+}
+form {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+input {
+    width: 400px;
+    margin: 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border-style: hidden;
+    padding: 16px;
+    outline-style: none;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+}
+.search {
+    border-style: hidden;
+    padding: 20px 0px;
+    width: 10%;
+    height: 5%;
+    left: 20%;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #5a84a2;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 660px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+}
+.search:hover{
+	background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+}
+
+@media (min-width: 320px) and (max-width: 833px) {
+
+    .main-content {
+        margin: 0%;
+        padding: 1rem;
+    }
+    header {
+        height: 10rem;
+    }
+
+    header h1 {
+        font-size: 3rem;
+        padding: 0%;
+    }
+    form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .search {
+        width: 6rem;
+    }
+}
